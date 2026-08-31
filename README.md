@@ -4,7 +4,7 @@
    <title>A bit more about me</title>
 </head>
 
-<body style="background-color: 88E0EB">
+<body style="background-color: #88E0EB">
    <h1 style="text-align:center">A small intro by your student, Blake Jones</h1>
    <p>Hello, im Blake Jones. I have been coding since about middle, though I wouldn't call myself afluent in any language. I mostly code in HTML, JS, Python, and C#</p>
    <p>My main hobby is cars, I specialize in <b>Mini's</b> and also <b>BMW's</b> by extension (fun fact BMW makes Mini) </p>
@@ -18,6 +18,6 @@
    512MB of Laptop DDR2 533mhz<br>
    1920x1200 60Hz LCD panel (crazy for 04')<br>
    <p>Sadly I had to frankenstein 2 similar platforms together to do this, the 9200 only supports upto a 1.7ghz Pentium M and 333mhz RAM, the expanded bus speed on its successor makes it a lot faster. Regardless its really fast for 98 considering 98 mostly ran on 300mhz CPU's with 64-128mb of ram and 32mb of vram if you had a proper graphics card.</p>
-   <p style="color: 364899">Have a nice day!</p>
+   <p style="color: #364899">Have a nice day!</p>
 </body>
 </html>
