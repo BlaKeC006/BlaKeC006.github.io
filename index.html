@@ -5,12 +5,22 @@
       <title>A bit more about me</title>
       <meta name="author" content="Blake Jones">
       <meta name="description" content="A github pages website for my Web Page Development CGS2820C class">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 
-   <body style="background-color: #88E0EB; max-width: 1000px; margin: 0 auto; width: 100%;">
+   <body style="background-image:url(images/bg.jpg); max-width: 1000px; margin: 0 auto; width: 100%; ">
 
-      <header>
-      <h1 style="text-align:center">A small intro by your student, Blake Jones</h1>
+      <header style="
+      width: 100%;
+      aspect-ratio: 8 / 1;
+      background-image: url('images/banner.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      position: relative;">
+      </header>
+
+      <div>
       <nav>
          <ul>
             <li><a href="index.html">Home</a></li>
@@ -18,12 +28,30 @@
             <li><a href="resume.html">Resume (currently under construction)</a></li>
          </ul>
       </nav>
-      </header>
+      </div>
 
       <main>
+         <hr style="width:80%; height:5px; background-color: #364899">
+         <h1 style="color:#364899; text-align:center">A little introduction to me; Blake Jones</h1>
+         <hr style="width:80%; height:5px; background-color: #364899">
          <p>Hello, im Blake Jones. I have been coding since about middle, though I wouldn't call myself afluent in any language. I mostly code in HTML, JS, Python, and C#</p>
          <p>My main hobby is cars, I specialize in <b>Mini's</b> and also <b>BMW's</b> by extension (fun fact BMW makes Mini) </p>
          <p>I also do alot of PC repair and tinkering, from retro 98/XP era systems to other stuff like AV</p>
+         <div style="display: flex; gap: 10px;">
+            <img 
+            src="images/MiniGasStation.jpg" 
+            alt="My Mini at a gas station" 
+            style="width:50%; height:auto; border-radius:10px;"
+            onmouseover="this.src='images/MiniInterior.jpg'"
+            onmouseout="this.src='images/MiniGasStation.jpg'">
+            <img src="images/05hifiStack.jpg" alt="My little 05' audio stack" style="width:50%; height:auto; border-radius: 10px;">
+         </div>
+                  <svg width="400" height="120">
+         <rect x="10" y="10" rx="20" ry="20" width="380" height="80" style="fill:blue; stroke:black; stroke-width:3; opacity:0.5" />
+         <text x="15" y="55" font-size="14" fill="white">
+         "When in doubt, flat out" -Colin McRae, WRC World Champion
+         </text>
+         </svg>
          <h2 style="color:#364899; text-align:center">My Current Project</h2>
          <p style="font-weight:bold; font-size:17px">Fun Fact: Im currently trying to build the worlds fastest <i>Windows 98 SE</i> laptop</p>
          <p>It is built from a 2 laptops, a Dell Inspiron 9200 and 9300, 9200 has the GPU I needed to harvest but the 9300 has the updated chipset</p>
@@ -33,11 +61,17 @@
          512MB of Laptop DDR2 533mhz<br>
          1920x1200 60Hz LCD panel (crazy for 04')<br>
          <p>Sadly I had to frankenstein 2 similar platforms together to do this, the 9200 only supports upto a 1.7ghz Pentium M and 333mhz RAM, the expanded bus speed on its successor makes it a lot faster. Regardless its really fast for 98 considering 98 mostly ran on 300mhz CPU's with 64-128mb of ram and 32mb of vram if you had a proper graphics card.</p>
+         <div style="text-align:center;">
+         <img src="images/InspironBIOS.jpg" alt="My 98 SE Laptop" style="width:35%; height:auto; border-radius: 10px;">
+         </div>
          <h1 style="color:#364899; text-align:center">What is this place? And what will it be?</h1>
          <p>So, this website is currently a simple introduction to my interests and projects. It's primary function is to host all my classwork for my <span style="color:#364899">Web Page Development CGS2820C</span> class.</p>
          <p>In the future I plan to expand this site to host my online resume, and maybe even a blog chronologing my automotive and tech experinces. Hopefully in the future this site will serve more than just a showcase but have useful resources avalible. I look forward to that day :)</p>
          <p>Thanks for visiting my site, I hope you enjoy it!</p>
          <p style="color: #364899">Have a nice day!</p>
+         <a href="#Top">
+         <img src="images/top.png" alt="Go to the top" style="border:0px">
+         </a>
       </main>
 
       <footer>
